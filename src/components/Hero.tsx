@@ -147,11 +147,18 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                 <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800/80 mb-4">
                   {!imgError ? (
                     <img
-                      src="/src/assets/images/Suraj.jpg"
+                      src="/Suraj.jpg"
                       alt="Suraj Arvind Jaiswar - Senior Implementation Engineer"
                       className="w-full h-full object-cover object-top"
                       referrerPolicy="no-referrer"
-                      onError={() => setImgError(true)}
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        if (!target.src.endsWith('/images/Suraj.jpg')) {
+                          target.src = '/images/Suraj.jpg';
+                        } else {
+                          setImgError(true);
+                        }
+                      }}
                     />
                   ) : (
                     <div className="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-br from-slate-100 via-slate-200 to-slate-100 dark:from-slate-900 dark:via-slate-800 dark:to-slate-950 text-center">

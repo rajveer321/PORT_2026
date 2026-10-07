@@ -67,6 +67,7 @@ export const PORTFOLIO_DATA = {
     location: 'Mumbai, Maharashtra, India',
     linkedin: 'https://linkedin.com/in/suraj-jaiswar-036a001b8',
     portfolioUrl: 'https://suraj-jet.vercel.app/',
+    avatar: '/Suraj.jpg',
     headline: 'Driving seamless enterprise software rollouts, high-performance database migrations, and 98% on-time go-live execution.',
     bio: 'Senior Implementation Specialist with over 4 years of proven experience in enterprise software implementations, system integrations, and client delivery across Asset Management, Purchase Order (PO), and IT/Admin Ticketing platforms. Demonstrated track record in managing large-scale rollouts for Tier-1 institutions including BSE, Morgan Stanley, and SBI Securities. Expert in PostgreSQL and SQL Server database operations, REST API integrations, and leading User Acceptance Testing (UAT) to accelerate user adoption by 30%.',
   },
@@ -125,7 +126,7 @@ export const PORTFOLIO_DATA = {
       subtitle: 'Configured and delivered asset lifecycles across 50+ enterprise environments',
       description: 'A comprehensive rollout framework designed to transition legacy manual asset registers into real-time digital tracking systems with automated depreciation, warranty tracking, and audit workflows.',
       longDescription: 'Engineered and executed an end-to-end deployment standard for Tier-1 corporate clients. Orchestrated data discovery, normalization scripts, SQL Server & PostgreSQL database schemas, and IIS web application integration. Led UAT testing with operations and finance teams, resulting in 98% on-time cutover with minimal operational friction.',
-      image: '/src/assets/images/asset_management_system_1791304069100.jpg',
+      image: '/images/asset_management_system_1791304069100.jpg',
       metrics: [
         { label: 'Client Rollouts', value: '50+' },
         { label: 'On-Time Go-Live', value: '98%' },
@@ -150,7 +151,7 @@ export const PORTFOLIO_DATA = {
       subtitle: 'Multi-department procurement and service desk workflow mapping',
       description: 'Streamlined purchase orders and internal ticketing pipelines by mapping complex corporate approval matrices into automated, auditable system flows.',
       longDescription: 'Designed and deployed standardized workflows for Purchase Order approvals and IT/Admin service request handling. Configured automated status transitions, escalation triggers, and SLA tracking dashboards that reduced request turnaround times and increased cross-department transparency.',
-      image: '/src/assets/images/workflow_ticketing_system_1791304091230.jpg',
+      image: '/images/workflow_ticketing_system_1791304091230.jpg',
       metrics: [
         { label: 'Adoption Rate', value: '+30%' },
         { label: 'Turnaround Time', value: '-35%' },
@@ -175,7 +176,7 @@ export const PORTFOLIO_DATA = {
       subtitle: 'Resilient PostgreSQL & SQL Server data pipelines for enterprise clients',
       description: 'High-performance database operations and API integration architecture supporting heavy data throughput and zero-loss synchronizations.',
       longDescription: 'Managed critical enterprise database layers handling transactional records for enterprise clients. Architected data correction pipelines, optimized slow-running queries, and configured secure REST endpoints documented in Swagger for external ERP integrations.',
-      image: '/src/assets/images/database_integration_hub_1791304104175.jpg',
+      image: '/images/database_integration_hub_1791304104175.jpg',
       metrics: [
         { label: 'Efficiency Gain', value: '+25%' },
         { label: 'Deployment Rate', value: '30+ Live' },
@@ -200,7 +201,7 @@ export const PORTFOLIO_DATA = {
       subtitle: 'Centralized academic content management platform with RBAC',
       description: 'A structured knowledge management system built to digitize, index, and organize academic lecture notes, assignments, and research documents with role-based access.',
       longDescription: 'Engineered a full-featured web application allowing students, faculty, and administrative staff to publish, search, and review syllabus-aligned academic documents. Features include secure file uploads, role-based document access, and categorized tag search.',
-      image: '/src/assets/images/database_integration_hub_1791304104175.jpg',
+      image: '/images/database_integration_hub_1791304104175.jpg',
       metrics: [
         { label: 'Role Types', value: '3 Tiers' },
         { label: 'Search Speed', value: 'Instant' },
