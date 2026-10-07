@@ -147,7 +147,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                 <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800/80 mb-4">
                   {!imgError ? (
                     <img
-                      src="/src/assets/images/suraj_engineer_portrait_1791304057001.jpg"
+                      src="/src/assets/images/Suraj.jpg"
                       alt="Suraj Arvind Jaiswar - Senior Implementation Engineer"
                       className="w-full h-full object-cover object-top"
                       referrerPolicy="no-referrer"
